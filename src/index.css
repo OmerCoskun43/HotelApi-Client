@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: rgb(189, 231, 241);
+   
+}
+
+@layer components {
+    .input-style {
+        @apply border p-2 rounded-md outline-none
+    }
+
+    .input-label {
+        @apply ps-2 bg-white text-start font-bold text-red-600 rounded-md
+    }
+
+    .span-style {
+        @apply text-sm text-red-500 cursor-pointer hover:underline
+    }
+    .btnStyle{
+        @apply  px-3 py-2 rounded-xl text-white font-bold
+    }
+}
